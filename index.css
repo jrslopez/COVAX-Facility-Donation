@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald|Roboto");
+html{
+    height: 100%;
+    background-image: linear-gradient(to right top, #f0da82 0%, #8fc6e9 100%);
+}
+
+nav {
+    max-width: 960px;
+    mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #8f7d7d 25%, #a17373 75%, rgba(255, 255, 255, 0) 100%);
+    margin: 0 auto;
+    padding: 100px 0;
+  }
+  
+  nav ul {
+    text-align: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(0, 0, 0, 0.6);
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    padding: 25px;
+    font-family: "Open Sans";
+    text-transform:uppercase;
+    color: rgba(0, 35, 122, 0.5);
+    font-size: 30px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  nav ul li a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(0, 0, 0, 0.6);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.993);
+  }
+
+.image1-right{
+    float:right;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: auto;
+    width: 30%;
+}
+body{
+    height: 100%;
+    background-image: linear-gradient(to right top, #f0da82 0%, #8fc6e9 100%);
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size:100px;
+    margin-left: 10px;
+}
+p{
+    font-family:'Roboto', sans-serif;
+    font-size:20px;
+    margin-left:10px;
+}
+p.a{
+    text-align: center;
+    font-size:30px;
+}
+p.b{
+    text-align: center;
+    font-size:50px;
+    font-weight: 900;
+}
+p.c{
+    text-align: center;
+    font-size:15px;
+    font-style: italic;
+}
