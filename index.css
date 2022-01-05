@@ -1,9 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald|Roboto");
-html{
-    height: 100%;
-    background-image: linear-gradient(to right top, #f0da82 0%, #8fc6e9 100%);
-}
-
 nav {
     max-width: 960px;
     mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #8f7d7d 25%, #a17373 75%, rgba(255, 255, 255, 0) 100%);
